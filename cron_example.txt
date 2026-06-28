@@ -1,0 +1,1 @@
+25 2 * * * /home/helder/rtp-dvr/.venv/bin/python /home/helder/rtp-dvr/src/1rtp_playwright_record.py >> /home/helder/rtp-dvr/record.log 2>&1
