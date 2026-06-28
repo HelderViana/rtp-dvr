@@ -16,8 +16,6 @@ URL = "https://www.rtp.pt/play/palco/direto/rtppalco1" # --> change here to the 
 In this example, we have 3 scripts, used to record in parallel until 3 different live streams, for 3 different live stages, just adapt the script to point to your url adress, then it will start recording the stream and saving it under the same directory, in the format rtp_palco1_{timestamp}.ts .
 Thenif you prefer to convert it to mp4, to archive it, it would be better to convert it into mp4, you can use the following command to do it:
 
-
-URL
 ```bash
 ffmpeg -i rtp_palco3_1781456969.ts -c copy rtp_Xinobi_PrimaveraSound_2026.mp4
 
